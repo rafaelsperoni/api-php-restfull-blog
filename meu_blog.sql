@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 15-Ago-2018 às 04:52
+-- Generation Time: 12-Set-2018 às 13:56
 -- Versão do servidor: 10.1.34-MariaDB
 -- PHP Version: 7.2.7
 
@@ -43,10 +43,10 @@ CREATE TABLE `categoria` (
 CREATE TABLE `post` (
   `id` int(11) NOT NULL,
   `titulo` varchar(200) NOT NULL,
-  `texto` int(11) NOT NULL,
+  `texto` text NOT NULL,
   `id_categoria` int(11) NOT NULL,
-  `autor` int(11) NOT NULL,
-  `dt_criacao` int(11) NOT NULL
+  `autor` varchar(150) NOT NULL,
+  `dt_criacao` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
