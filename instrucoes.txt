@@ -1,0 +1,21 @@
+INSTRUÇÕES
+
+Na classe Categoria.php
+- criar método create()
+    - insere os dados contidos nos atributos na
+        tabela categoria;
+    - TESTAR O MÉTODO
+- criar método update()
+    - altera os valores de um registro por aqueles
+        contidos nos atributos;
+    - TESTAR O MÉTODO
+- criar método delete()
+    - apaga um registro de acordo com o
+        atributo id
+    - TESTAR O MÉTODO
+-
+
+
+
+link - OpenWeatherMap
+http://api.openweathermap.org/data/2.5/weather?lat=-26.9911&lon=-48.6352&units=metric&lang=pt&APPID=c144ba4eaa5f0aebc01c661169701dc7
